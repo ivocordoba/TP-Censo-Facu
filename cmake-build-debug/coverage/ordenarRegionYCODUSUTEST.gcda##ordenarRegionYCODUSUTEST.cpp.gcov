@@ -1,0 +1,368 @@
+        -:    0:Source:C:/Users/Rami y Santi/Desktop/UBA Exactas/Segundo Cuatrimestre 2021/Algo1/Parciales y Tps/TPI/Nueva carpeta/template-alumnos/test/ordenarRegionYCODUSUTEST.cpp
+        -:    0:Graph:C:\Users\Rami y Santi\Desktop\UBA Exactas\Segundo Cuatrimestre 2021\Algo1\Parciales y Tps\TPI\Nueva carpeta\template-alumnos\cmake-build-debug\CMakeFiles\tpi.dir\test\ordenarRegionYCODUSUTEST.gcno
+        -:    0:Data:C:\Users\Rami y Santi\Desktop\UBA Exactas\Segundo Cuatrimestre 2021\Algo1\Parciales y Tps\TPI\Nueva carpeta\template-alumnos\cmake-build-debug\CMakeFiles\tpi.dir\test\ordenarRegionYCODUSUTEST.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../definiciones.h"
+        -:    2:#include "../Funciones_TPI.h"
+        -:    3:#include "../ejercicios.h"
+        -:    4:#include "gtest/gtest.h"
+        -:    5:#include <iostream>
+        -:    6:#include <string>
+        -:    7:#include "../auxiliares.h"
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+        -:   11:
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestD0Ev called 1 returned 100% blocks executed 100%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestD1Ev called 1 returned 100% blocks executed 100%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_Test8TestBodyEv called 1 returned 100% blocks executed 47%
+function _ZN47ordenarRegionYCODUSUTEST_regionesDistintas_TestC1Ev called 1 returned 100% blocks executed 100%
+        8:   12:TEST(ordenarRegionYCODUSUTEST, regionesDistintas) {
+call    0 returned 1
+call    1 returned 1
+call    2 returned 1
+call    3 returned 1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   12-block  0
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   12-block  1
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   12-block  2
+call   13 returned 1
+call   14 returned 1
+call   15 returned 1
+    %%%%%:   12-block  3
+call   16 never executed
+    %%%%%:   12-block  4
+call   17 never executed
+    %%%%%:   12-block  5
+call   18 never executed
+        1:   12-block  6
+        1:   12-block  7
+call   19 returned 1
+call   20 returned 1
+        1:   12-block  8
+        1:   12-block  9
+call   21 returned 1
+        1:   12-block 10
+        1:   12-block 11
+        1:   12-block 12
+call   22 returned 1
+        -:   13:
+        -:   14:    eph_h th = {
+        -:   15:        {334,  2017, 1, 1, 2, 0, 41, 3, 1, 2},
+        -:   16:        {960,  2017, 1, 1, 1, 0, 1, 4, 1, 2},
+        4:   17:    };
+        1:   17-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   17-block  1
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   17-block  2
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   17-block  3
+call   12 returned 1
+        3:   17-block  4
+branch 13 taken 2 (fallthrough)
+branch 14 taken 1
+        2:   17-block  5
+call   15 returned 2
+        1:   17-block  6
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   17-block  7
+    %%%%%:   17-block  8
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   17-block  9
+call   21 never executed
+    %%%%%:   17-block 10
+    %%%%%:   17-block 11
+call   22 never executed
+    %%%%%:   17-block 12
+call   23 never executed
+    %%%%%:   17-block 13
+call   24 never executed
+    %%%%%:   17-block 14
+call   25 never executed
+        -:   18:
+        -:   19:    eph_i ti = {
+        -:   20:        {334,  2017, 1, 1, 0, 1, 36, 1,  3, 16300, 1},
+        -:   21:        {960,  2017, 3, 1, 1, 2, 51, 1,  4, 1280,  1},
+        -:   22:        {960,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+        -:   23:        {960,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6}
+        6:   24:    };
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   24-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   24-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   24-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   24-block  3
+call   16 returned 1
+call   17 returned 1
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0 (throw)
+        1:   24-block  4
+call   20 returned 1
+        5:   24-block  5
+branch 21 taken 4 (fallthrough)
+branch 22 taken 1
+        4:   24-block  6
+call   23 returned 4
+        1:   24-block  7
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+call   27 returned 1
+call   28 returned 1
+    %%%%%:   24-block  8
+    %%%%%:   24-block  9
+branch 29 never executed
+branch 30 never executed
+    %%%%%:   24-block 10
+call   31 never executed
+    %%%%%:   24-block 11
+    %%%%%:   24-block 12
+call   32 never executed
+    %%%%%:   24-block 13
+call   33 never executed
+    %%%%%:   24-block 14
+call   34 never executed
+    %%%%%:   24-block 15
+call   35 never executed
+    %%%%%:   24-block 16
+call   36 never executed
+    %%%%%:   24-block 17
+call   37 never executed
+        -:   25:
+        -:   26:    eph_h th_esperado = {
+        -:   27:        {960,  2017, 1, 1, 1, 0, 1, 4, 1, 2},
+        -:   28:        {334,  2017, 1, 1, 2, 0, 41, 3, 1, 2}
+        4:   29:    };
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   29-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   29-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   29-block  2
+call   12 returned 1
+        3:   29-block  3
+branch 13 taken 2 (fallthrough)
+branch 14 taken 1
+        2:   29-block  4
+call   15 returned 2
+        1:   29-block  5
+call   16 returned 1
+call   17 returned 1
+call   18 returned 1
+    %%%%%:   29-block  6
+    %%%%%:   29-block  7
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   29-block  8
+call   21 never executed
+    %%%%%:   29-block  9
+    %%%%%:   29-block 10
+call   22 never executed
+    %%%%%:   29-block 11
+call   23 never executed
+    %%%%%:   29-block 12
+call   24 never executed
+    %%%%%:   29-block 13
+call   25 never executed
+        -:   30:
+        -:   31:    eph_i ti_esperado = {
+        -:   32:        {960,  2017, 1, 1, 0, 2, 19, 0,  0, 0,     6},
+        -:   33:        {960,  2017, 2, 1, 0, 2, 20, 1,  3, 7000,  1},
+        -:   34:        {960,  2017, 3, 1, 1, 2, 51, 1,  4, 1280,  1},
+        -:   35:        {334,  2017, 1, 1, 0, 1, 36, 1,  3, 16300, 1}
+        6:   36:    };
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   36-block  0
+call    4 returned 1
+call    5 returned 1
+branch  6 taken 1 (fallthrough)
+branch  7 taken 0 (throw)
+        1:   36-block  1
+call    8 returned 1
+call    9 returned 1
+branch 10 taken 1 (fallthrough)
+branch 11 taken 0 (throw)
+        1:   36-block  2
+call   12 returned 1
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   36-block  3
+call   16 returned 1
+call   17 returned 1
+branch 18 taken 1 (fallthrough)
+branch 19 taken 0 (throw)
+        1:   36-block  4
+call   20 returned 1
+        5:   36-block  5
+branch 21 taken 4 (fallthrough)
+branch 22 taken 1
+        4:   36-block  6
+call   23 returned 4
+        1:   36-block  7
+call   24 returned 1
+call   25 returned 1
+call   26 returned 1
+call   27 returned 1
+call   28 returned 1
+    %%%%%:   36-block  8
+    %%%%%:   36-block  9
+branch 29 never executed
+branch 30 never executed
+    %%%%%:   36-block 10
+call   31 never executed
+    %%%%%:   36-block 11
+    %%%%%:   36-block 12
+call   32 never executed
+    %%%%%:   36-block 13
+call   33 never executed
+    %%%%%:   36-block 14
+call   34 never executed
+    %%%%%:   36-block 15
+call   35 never executed
+    %%%%%:   36-block 16
+call   36 never executed
+        -:   37:
+        -:   38:
+        1:   39:    ordenarRegionYCODUSU(th, ti);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40:    EXPECT_EQ(th_esperado, th);
+        1:   40-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   40-block  1
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   40-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   40-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   40-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    $$$$$:   40-block  5
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   40-block  6
+call   18 never executed
+call   19 never executed
+        1:   40-block  7
+call   20 returned 1
+    %%%%%:   40-block  8
+call   21 never executed
+    %%%%%:   40-block  9
+call   22 never executed
+    %%%%%:   40-block 10
+call   23 never executed
+    %%%%%:   40-block 11
+        1:   41:    EXPECT_EQ(ti_esperado, ti);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   41-block  0
+call    3 returned 1
+branch  4 taken 0 (fallthrough)
+branch  5 taken 1
+    $$$$$:   41-block  1
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    $$$$$:   41-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   41-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    $$$$$:   41-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    $$$$$:   41-block  5
+call   18 never executed
+call   19 never executed
+        1:   41-block  6
+call   20 returned 1
+    %%%%%:   41-block  7
+call   21 never executed
+    %%%%%:   41-block  8
+call   22 never executed
+    %%%%%:   41-block  9
+call   23 never executed
+    %%%%%:   41-block 10
+        -:   42:
+function _GLOBAL__sub_I__ZN47ordenarRegionYCODUSUTEST_regionesDistintas_Test10test_info_E called 1 returned 100% blocks executed 100%
+function _Z41__static_initialization_and_destruction_0ii called 1 returned 100% blocks executed 77%
+        5:   43:}
+        1:   43-block  0
+        1:   43-block  1
+call    0 returned 1
+        1:   43-block  2
+        1:   43-block  3
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0
+        1:   43-block  4
+branch  3 taken 1 (fallthrough)
+branch  4 taken 0
+        1:   43-block  5
+    %%%%%:   43-block  6
+call    5 never executed
